@@ -1,0 +1,23 @@
+* {
+  margin:0rem;
+  border: 0rem;
+  padding: 0rem
+  overflow: visible;
+  font-family: 'Dosis', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li
+{
+  list-style: none;
+}
+
+.form
+{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
