@@ -21,3 +21,20 @@ li
   justify-content: center;
   align-self: center;
 }
+
+.img-fluid
+{
+    width: 5rem;
+    animation-name: rotacion;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   animation-duration: 1s;
+   animation-delay: 0.5s;
+
+}
+
+@keyframes rotacion {
+
+  100% {-webkit-transform: rotate(360deg);}
+  
+} 
