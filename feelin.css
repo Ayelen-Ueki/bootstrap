@@ -22,6 +22,11 @@ li
   align-self: center;
 }
 
+nav ul li:hover
+{
+   text-decoration: underline;
+}
+
 .img-fluid
 {
     width: 5rem;
@@ -31,6 +36,14 @@ li
    animation-duration: 1s;
    animation-delay: 0.5s;
 
+}
+
+@media screen and (max-width: 246px) 
+{
+    .videoFeelin
+    {
+      height: 10rem;
+    }
 }
 
 @keyframes rotacion {
