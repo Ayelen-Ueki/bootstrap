@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+.navbar-brand {
+  display: flex;
+  align-items: center; }
+  .navbar-brand img {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem; }
