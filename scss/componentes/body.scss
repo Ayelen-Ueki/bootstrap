@@ -1,0 +1,41 @@
+@import"../componentes/variables.scss";
+
+.content
+{
+    padding: 1rem;
+}
+
+.feelin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: solid;
+    border-radius: 0.25rem;
+    border-color: $color-naranjafeelin;
+    background-color: $color-salmonfeelin;
+}
+.antojos{
+    font-weight: bold;
+}
+
+$productos:(
+    alfajorcitos: #FFE300,
+    alfajorcitosRogel: #FF7800,
+    cookies: #52dc1b,
+);
+
+@each $prod, $color in $productos {
+    .#{$prod}{
+        color:$color;
+    }
+}
